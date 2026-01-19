@@ -1,11 +1,11 @@
 .stars {
   display: flex;
   gap: 4px; // Відступ між зірками з макета
-  margin-right: 16px; // Відступ праворуч до тексту "Reviews"
+  margin-right: $star-size;
 
   &__star {
-    width: 16px;
-    height: 16px;
+    width: $star-size;
+    height: $star-size;
     background-image: url(../images/star.svg); // Сіра зірка за замовчуванням
     background-size: contain;
     background-repeat: no-repeat;

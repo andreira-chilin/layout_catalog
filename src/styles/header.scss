@@ -48,17 +48,17 @@
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: $a-primary-color; // Змінна з variables.scss
+    color: $main-accent-color;
     text-decoration: none;
     font-size: 12px;
     transition: color 0.3s;
 
     &:hover {
-      color: $a-secondary-color; // Змінна з variables.scss
+      color: $secondary-accent-color;
     }
 
     &.is-active {
-      color: $a-secondary-color;
+      color: $secondary-accent-color;
       position: relative;
 
       &::after {
@@ -68,7 +68,7 @@
         right: 0;
         bottom: 0;
         height: 4px;
-        background-color: $a-secondary-color;
+        background-color: $secondary-accent-color;
       }
     }
   }

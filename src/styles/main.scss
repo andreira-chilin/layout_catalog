@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: $btn-color;
+  background-color: $bg-main-color;
 
   padding: 32px 16px 16px;
   width: 200px;
@@ -118,12 +118,12 @@
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: $btn-color;
+    color: $bg-main-color;
 
     transition: all 0.3s ease; // Плавний перехід
 
     &:hover {
-      background-color: $btn-color;
+      background-color: $bg-main-color;
       color: $secondary-accent-color;
     }
   }
